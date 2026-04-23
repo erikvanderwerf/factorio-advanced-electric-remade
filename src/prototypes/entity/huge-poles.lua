@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 if mods["PowerOverload"] then
     local huge_pole_mk2_entity = util.table.deepcopy(data.raw["electric-pole"]["po-huge-electric-pole"])
     huge_pole_mk2_entity.name = "aer-huge-electric-pole-2"

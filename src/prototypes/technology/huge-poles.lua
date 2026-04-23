@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 if mods["PowerOverload"] then
     local huge_pole_mk2_tech = util.table.deepcopy(data.raw["technology"]["po-electric-energy-distribution-3"])
     huge_pole_mk2_tech.name = "aer-electric-wire-extension-1"

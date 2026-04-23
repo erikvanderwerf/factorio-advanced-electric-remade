@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 if mods["PowerOverload"] then
     local huge_electric_pole_mk2_recipe = util.table.deepcopy(data.raw.recipe["po-huge-electric-pole"])
     huge_electric_pole_mk2_recipe.name = "aer-huge-electric-pole-2"

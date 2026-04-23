@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 local wooden_poles_2 = util.table.deepcopy(data.raw.technology["electric-energy-distribution-1"])
 wooden_poles_2.name = "small-electric-pole-2"
 wooden_poles_2.effects = {

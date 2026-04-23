@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 --small poles--
 local small_electric_pole_mk2 = util.table.deepcopy(data.raw.recipe["small-electric-pole"])
 small_electric_pole_mk2.name = "small-electric-pole-2"

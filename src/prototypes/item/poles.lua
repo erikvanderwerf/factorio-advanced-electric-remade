@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 data.raw.item["small-electric-pole"].order = "a[energy]-a[small-electric-pole-1]"
 data.raw.item["small-electric-pole"].subgroup = "advanced-electric-poles"
 data.raw.item["medium-electric-pole"].order = "a[energy]-b[medium-electric-pole-1]"

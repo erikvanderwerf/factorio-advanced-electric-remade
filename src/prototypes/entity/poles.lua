@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 data.raw["electric-pole"]["small-electric-pole"].fast_replaceable_group = "electric-pole"
 data.raw["electric-pole"]["big-electric-pole"].fast_replaceable_group = "big-electric-pole"
 data.raw["electric-pole"]["substation"].fast_replaceable_group = "big-electric-pole"

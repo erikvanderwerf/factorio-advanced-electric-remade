@@ -1,3 +1,5 @@
+if mods["bobpower"] then return end
+
 if mods["PowerOverload"] then
     local huge_pole_mk2_item = util.table.deepcopy(data.raw.item["po-huge-electric-pole"])
     huge_pole_mk2_item.subgroup = "advanced-electric-poles"
